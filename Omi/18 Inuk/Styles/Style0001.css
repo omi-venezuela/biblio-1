@@ -1,0 +1,113 @@
+
+@font-face {
+font-family: "LibreBaskerville-Regular";
+font-style: normal;
+font-weight: normal;
+src : url("../Fonts/LibreBaskerville-Regular.ttf");
+}
+
+@font-face {
+font-family: "LibreBaskerville-Bold";
+font-style: normal;
+font-weight: normal;
+src : url("../Fonts/LibreBaskerville-Bold.ttf");
+}
+
+h1{
+ font-family: "LibreBaskerville-Bold", Times, serif;
+	font-size:1.5em;
+	page-break-before:always;
+    margin-bottom: 2em;
+	page-break-after:avoid;
+	text-align:center;
+	color: brown;
+	text-indent:0;
+ }
+
+h2{
+    font-family: "LibreBaskerville-Bold", Times, serif;
+    font-size: 1.1em;
+    margin-bottom: 2em;
+    page-break-before: always;
+    text-align: center;
+    color: brown;
+    text-indent: 0;
+    font-weight: normal;
+
+}
+
+p.pNormalFirst::first-letter{
+	font-family: "LibreBaskerville-Bold";
+	font-size:2.5em;
+	float:left;
+	margin:0 0.05em 0 0;
+	color:brown;
+}
+h3{
+	font-family: "LibreBaskerville-Bold", Times, serif;
+	font-size:1em;
+	margin: 2em 0.84em 1em 0.84em;
+	page-break-after:avoid;
+	text-align:center;
+	color: brown;
+	text-indent:0; 
+ }
+.pNormal{
+ font-family: "LibreBaskerville-Regular", Times, serif;
+ text-indent: 30px;
+ text-align: justify;
+ font-weight: normal;
+ font-size: 0.84em;
+ margin-bottom: 6px;
+ margin-top: 0px;
+
+}
+
+
+.pNormalFirst{
+ font-family: "LibreBaskerville-Regular", Times, serif;
+ text-indent: 0px;
+ text-align: justify;
+ font-weight: normal;
+ font-size: 0.84em;
+ margin-bottom: 6px;
+ margin-top: 0px;
+
+}
+.pCommento{
+ font-family: "Times New Roman", Times, serif;
+ text-align: center;
+font-style:italic;
+ font-weight: normal;
+ font-size: 0.7em;
+ margin-bottom: 6px;
+ margin-top: 0px;
+
+}
+
+
+.pAsterisco{
+ font-family: "LibreBaskerville-Regular", Times, serif;
+ text-align: center;
+ font-weight: normal;
+ font-size: 1em;
+ margin-bottom: 1.5em;
+ margin-top: 1.5em;
+ color:brown;
+}
+
+.pFaja{
+ font-family: "Times New Roman", Times, serif;
+ text-align: left;
+ color: blue;
+ font-weight: normal;
+ font-size: 1em;
+ text-align: center;
+   padding:5px 5px 5px 15px;
+ margin-bottom: 1em;
+ margin-top: 5px;
+ border-top: 2px solid red;
+ border-bottom: 2px solid red;
+ background-color: beige;
+ 
+}
