@@ -640,3 +640,4 @@ img {
 
   object-fit: contain;
 }
+td {vertical-align:bottom;text-align:center;}
