@@ -637,4 +637,6 @@ img {
   vertical-align:center;
     }
 
-td	{vertical-align:center;text-align:center;}
+td {
+  text-align: center;
+}
