@@ -634,10 +634,7 @@ img {
   margin-right: auto;
   margin-top: 0.3em;
   width: 90%;
+  vertical-align:center;
     }
-	
-.contain {
 
-  object-fit: contain;
-}
-td {vertical-align:bottom;text-align:center;}
+image	{vertical-align:center;text-align:center;}
