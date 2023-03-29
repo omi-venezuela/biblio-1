@@ -899,3 +899,9 @@ hr {
     margin-top:5em;
     }	
 	
+.fixedButton {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 0;
+}
