@@ -162,10 +162,9 @@ h4 {
 .lettura {
     display: block;
     font-style: Italic;
-    line-height: 3em;
     text-align: left;
     text-indent: 0;
-    margin: 0
+  margin-bottom: 1em;
     }
 .txtLettura {
     font-size: 1.8em;
@@ -185,7 +184,7 @@ h4 {
  
   font-family: Times, Times New Roman, serif;
   text-align: center;
-  font-size: 1.7em;
+  font-size: 1.5em;
   font-weight: normal;
   margin-bottom: 1em;
   margin-top: 0em;
