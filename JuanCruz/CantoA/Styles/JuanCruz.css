@@ -1,13 +1,13 @@
 html {
   padding: 0.5ch;
   margin: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
   hyphens: auto;
   
 }
 
 .omi {
-
-  display: block;
   font-family: "Times New Roman", serif;
   font-size: 1em;
   padding-left: 1px;
