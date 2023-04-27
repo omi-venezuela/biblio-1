@@ -1,12 +1,11 @@
 
 
-a { text-decoration: none }
+
 html {
-  max-width: 60ch;
   padding: 0.5ch;
   margin: auto;
-  font-size: 1em;
   hyphens: auto;
+  max-width: 80ch;
 }
 
 .omi {
@@ -21,7 +20,7 @@ html {
   hyphens: auto;
 }
   a:hover { color: red }
-  
+  a { text-decoration: none }
   .pTit {
 	font-family: Times, Times New Roman, serif;
     text-align: center;

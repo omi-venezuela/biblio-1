@@ -1,11 +1,9 @@
 html {
-  max-width: 60ch;
   padding: 0.5ch;
   margin: auto;
-  font-size: 1em;
   hyphens: auto;
+  max-width: 80ch;
 }
-
 .omi {
 
   display: block;
