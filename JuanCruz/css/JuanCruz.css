@@ -1,0 +1,85 @@
+
+
+a { text-decoration: none }
+html {
+  max-width: 60ch;
+  padding: 0.5ch;
+  margin: auto;
+  font-size: 1em;
+  hyphens: auto;
+}
+
+.omi {
+
+  display: block;
+  font-family: "Times New Roman", serif;
+  font-size: 1em;
+  padding-left: 1px;
+  padding-right: 1px;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+  a:hover { color: red }
+  
+  .pTit {
+	font-family: Times, Times New Roman, serif;
+    text-align: center;
+    color: red;
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-bottom:1em;
+    margin-top: 1em;
+}
+
+.perTabla {
+    font-family: "Times New Roman", Times, serif;
+    color: red;
+	font-size: 1.2em;
+    align: center;
+	   }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align: center;
+}
+.butXL {
+  font: normal 1em Times;
+  background-color: orange;
+
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding-bottom: 0.4em;
+  padding-top: 0.4em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 0.2em 0.2em;
+  cursor: pointer;
+}
+.butXL {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.butXL {
+  width: 80%;
+}
+.pT3but {
+  font-family: Times, Times New Roman, serif;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: normal;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+  color: brown;
+}
+
+.pT3but a:link {
+  color: white;
+}
+.pT3but a:visited {
+  color: white;
+}
