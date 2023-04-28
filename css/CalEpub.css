@@ -10,13 +10,6 @@ p{
 	margin-top:0em;
 	margin-bottom:0em;
     }
-.center1 {
-  font-family: Times, Times New Roman, serif;
-  text-align: center;
-  font-size: 1.1em;
-  font-weight: normal;
-  color:#006622;
-}
 
 
 .DivIndTO {
@@ -600,7 +593,7 @@ hr {
 	border:0;
 	border-top:2px solid red; 
     margin-top:1em;
-    margin-bottom:1em;
+    margin-bottom:0.3em;
     }
 
 
@@ -634,9 +627,4 @@ img {
   margin-right: auto;
   margin-top: 0.3em;
   width: 90%;
-  vertical-align:center;
     }
-
-td {
-  text-align: center;
-}
