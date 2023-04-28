@@ -9,7 +9,7 @@ html {
 
   
   font-family: "Times New Roman", serif;
-  font-size: 2em;
+  font-size: 17px;
   padding-left: 1px;
   padding-right: 1px;
   -webkit-hyphens: auto;
@@ -28,7 +28,7 @@ a:visited {
 	font-family: Times, Times New Roman, serif;
     text-align: center;
     color: red;
-    font-size: 1.1em;
+    font-size: 19pxem;
     font-weight: normal;
     margin-bottom:0em;
     margin-top: 0em;
@@ -85,13 +85,13 @@ a:visited {
     margin-bottom: 0.5em;
     margin-top: 0.3em;
     margin-left: 2em;
-    font-size: 2em;
+    font-size: 19px;
 }
 .Titulo {
 	font-family: Times, Times New Roman, serif;
     text-align: center;
     color: red;
-    font-size: 2em;
+    font-size: 22px;
     font-weight: normal;
     margin-bottom:3em;
     margin-top: 0em;
@@ -100,7 +100,7 @@ a:visited {
 	font-family: Times, Times New Roman, serif;
     text-align: center;
     color: blue;
-    font-size: 1.5em;
+    font-size: 22px;
     font-weight: normal;
     margin-bottom:0em;
     margin-top: 1em;
@@ -110,7 +110,7 @@ a:visited {
 	font-family: Times, Times New Roman, serif;
     text-align: center;
     color: red;
-    font-size: 1.3em;
+    font-size: 24px;
     font-weight: normal;
     margin-bottom:1em;
     margin-top: 0em;
@@ -120,7 +120,7 @@ a:visited {
 	font-family: Times, Times New Roman, serif;
     text-align: left;
     color: blue;
-	font-size: 2em;
+	font-size: 22px;
   font-weight: bold;
   margin-bottom: 0.5em;
   margin-top: 1em;
@@ -131,7 +131,7 @@ a:visited {
     text-align: left;
     font-style: italic;
     color: blue;
-    font-size: 2em;
+    font-size: 17px;
     font-weight: normal;
     margin-bottom: 1.5em;
     margin-top: 1em;
@@ -142,7 +142,7 @@ a:visited {
 	font-family: Times, Times New Roman, serif;
     text-align: center;
     color: green;
-  font-size: 0.9em;
+  font-size: 14px;
   font-weight: bold;
   margin-bottom: 2em;
   margin-top: 1em;
@@ -152,7 +152,7 @@ a:visited {
 	font-family: Times, Times New Roman, serif;
     text-align: left;
     color: brown;
-    font-size: 0.9em;
+    font-size: 14px;
     font-weight: normal;
     margin-bottom: 1px;
     margin-top: 1em;
@@ -162,7 +162,7 @@ a:visited {
 	font-family: Times, Times New Roman, serif;
     text-align: left;
     color: blue;
-    font-size: 0.9em;
+    font-size: 14px;
     font-weight: normal;
     margin-bottom: 0.5em;
     margin-top: 1.5em;
