@@ -185,9 +185,9 @@ line-height: 1.5em;
 	
 .fixedButton {
   position: fixed;
-  bottom: 0;
+  bottom: 30px;
   right: 0;
-  margin-bottom: 0;
+  margin-bottom: 30px;
 }
 
 .red {
