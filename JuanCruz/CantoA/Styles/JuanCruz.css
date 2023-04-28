@@ -9,7 +9,7 @@ html {
 
 .omi {
   font-family: "Times New Roman", serif;
-  font-size: 17px;
+  font-size: 21px;
   padding-left: 1px;
   padding-right: 1px;
   -webkit-hyphens: auto;
@@ -88,7 +88,7 @@ a:visited {
 	font-family: Times, Times New Roman, serif;
     text-align: center;
     color: red;
-    font-size: 17px;
+    font-size: 21px;
     font-weight: normal;
     margin-bottom:0em;
     margin-top: 0em;

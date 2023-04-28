@@ -8,7 +8,7 @@ html {
 .omi {
 
   font-family: "Times New Roman", serif;
-  font-size: 17px;
+  font-size: 21px;
   padding-left: 1px;
   padding-right: 1px;
   -webkit-hyphens: auto;
@@ -143,7 +143,7 @@ line-height: 1.5em;
     text-align: left;
     font-style: italic;
     color: blue;
-    font-size: 17px;
+    font-size: 21px;
     font-weight: normal;
     margin-bottom: 1.5em;
     margin-top: 0.5em;
