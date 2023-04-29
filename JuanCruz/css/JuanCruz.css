@@ -53,7 +53,7 @@ a:hover {
 }
 .CartaPor {
 	font-family: Times, Times New Roman, serif;
-    text-align: justify;
+    text-align: left;
     margin-left: 1.8em;
     margin-bottom: 0.5em;
     margin-top: 1em;
@@ -82,7 +82,8 @@ a:hover {
     text-align: left;
     margin-bottom: 0.5em;
     margin-top: 0.3em;
-    margin-left: 5px;
+    margin-left: 1.8em;
+	text-indent: -1.8em;
     font-size: 24px;
 }
 .pTit {
@@ -90,9 +91,10 @@ a:hover {
     text-align: center;
     color: blue;
     font-size: 24px;
+	font-variant: small-caps;
     font-weight: normal;
-    margin-bottom:20px;
-    margin-top: 20px;
+    margin-bottom:10px;
+    margin-top: 10px;
 }
 
 .pT1 {
@@ -192,8 +194,8 @@ a:hover {
   border: none;
   border-radius: 8px;
   color: white;
-  padding-bottom: 0.4em;
-  padding-top: 0.4em;
+  padding-bottom: 0.2em;
+  padding-top: 0.2em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -221,6 +223,6 @@ a:hover {
   font-size: 20px;
   font-weight: normal;
   margin-bottom: 0.2em;
-  margin-top: 0.2em;
+  margin-top: 0em;
   color: brown;
 }
