@@ -1,5 +1,4 @@
 html {
-  padding: 1ch;
   margin: auto;
   hyphens: auto;
 }
@@ -44,7 +43,7 @@ a:hover {
 	font-family: Times, Times New Roman, serif;
     text-align: right;
     font-size: 24px;
-    margin-right: 1em;
+    margin-right: 24px;
     margin-top: 0em;
     color: red;
 }
@@ -52,7 +51,7 @@ a:hover {
 .Poesia {
 	font-family: Times, Times New Roman, serif;
     text-align: left;
-    margin-left: 3em;
+    margin-left: 10%;
     margin-bottom: 0.5em;
     margin-top: 0.2em;
     text-indent: -1.8em;
@@ -62,7 +61,7 @@ a:hover {
 	font-family: Times, Times New Roman, serif;
     text-align: left;
     font-style: italic;
-    margin-left: 3em;
+    margin-left: 5%;
 }
 .TitNormal {
 	font-family: Times, Times New Roman, serif;
@@ -134,7 +133,7 @@ a:hover {
 	font-family: Times, Times New Roman, serif;
     text-align: center;
     color: green;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: bold;
 	margin-bottom: 2em;
 	margin-top: 1em;
@@ -156,7 +155,7 @@ a:hover {
     font-style: italic;
     margin-bottom: 0em;
     margin-top: 0em;
-    font-size: 14pxem;
+    font-size: 18px;
     color: blue
 }
 
@@ -171,8 +170,8 @@ a:hover {
 	
 .fixedButton {
   position: fixed;
-  bottom: 30px;
-  right: 0;
+  bottom: 15px;
+  right: 2px;
   margin-bottom: 30px;
 }
 
@@ -180,7 +179,7 @@ a:hover {
 .perTabla {
     font-family: "Times New Roman", Times, serif;
     color: red;
-	font-size: 2em;
+	font-size: 24px;
     align: center;
 	   }
 .center {
@@ -191,7 +190,7 @@ a:hover {
 }
 
 .butXL {
-  font: normal 1em Times;
+  font: normal 26px Times;
   background-color: orange;
   border: none;
   border-radius: 8px;
@@ -201,7 +200,7 @@ a:hover {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 28px;
+  font-size: 26px;
   margin: 0.2em 0.2em;
   cursor: pointer;
 }
@@ -222,7 +221,7 @@ a:hover {
   font-family: Times, Times New Roman, serif;
   letter-spacing: 2px;
   text-align: center;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: normal;
   margin-bottom: 0.2em;
   margin-top: 0.2em;
