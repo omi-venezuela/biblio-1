@@ -2,10 +2,12 @@ html {
   margin: auto;
   hyphens: auto;
 }
-
+body {
+  font-size: clamp(100%, 1rem + 2vw, 24px);
+}
 .omi {
 	font-family: "Times New Roman", serif;
-	font-size: 22px;
+
 	padding-left: 1px;
 	padding-right: 1px;
     -webkit-hyphens: auto;
