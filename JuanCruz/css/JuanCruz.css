@@ -26,18 +26,6 @@ a:hover {
 }
 
 
-.buttonInit {
-	font-family: Times, Times New Roman, serif;
-    text-align: center;
-    color: red;
-    font-size: 28px;
-    font-weight: normal;
-    margin-bottom:0em;
-    margin-top: 0em;
-    margin-left: 10%;
-    margin-right: 10%;
-    border: solid red 1px;
-}
 
 .sigue {
 	font-family: Times, Times New Roman, serif;
@@ -51,7 +39,7 @@ a:hover {
 .Poesia {
 	font-family: Times, Times New Roman, serif;
     text-align: left;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-bottom: 0.5em;
     margin-top: 0.2em;
     text-indent: -1.8em;
@@ -62,6 +50,15 @@ a:hover {
     text-align: left;
     font-style: italic;
     margin-left: 5%;
+}
+.CartaPor {
+	font-family: Times, Times New Roman, serif;
+    text-align: justify;
+    margin-left: 1.8em;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+    text-indent: -1.8em;
+	color: blue;
 }
 .TitNormal {
 	font-family: Times, Times New Roman, serif;
@@ -86,7 +83,7 @@ a:hover {
     margin-bottom: 0.5em;
     margin-top: 0.3em;
     margin-left: 5px;
-    font-size: 28px;
+    font-size: 24px;
 }
 .pTit {
 	font-family: Times, Times New Roman, serif;
@@ -94,15 +91,15 @@ a:hover {
     color: blue;
     font-size: 24px;
     font-weight: normal;
-    margin-bottom:0em;
-    margin-top: 1em;
+    margin-bottom:20px;
+    margin-top: 20px;
 }
 
 .pT1 {
 	font-family: Times, Times New Roman, serif;
     text-align: center;
     color: red;
-    font-size: 40px;
+    font-size: 28px;
     font-weight: normal;
     margin-bottom:2em;
     margin-top: 0em;
@@ -190,7 +187,7 @@ a:hover {
 }
 
 .butXL {
-  font: normal 24px Times;
+  font: normal 20px Times;
   background-color: orange;
   border: none;
   border-radius: 8px;
@@ -200,7 +197,7 @@ a:hover {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 24px;
+  font-size: 20px;
   margin: 0.2em 0.2em;
   cursor: pointer;
 }
@@ -221,7 +218,7 @@ a:hover {
   font-family: Times, Times New Roman, serif;
   letter-spacing: 2px;
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: normal;
   margin-bottom: 0.2em;
   margin-top: 0.2em;
