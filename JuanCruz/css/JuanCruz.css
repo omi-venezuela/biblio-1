@@ -11,7 +11,7 @@ html {
 .omi {
 
   font-family: "Times New Roman", serif;
-  font-size: 21px;
+  font-size: 24px;
   padding-left: 1px;
   padding-right: 1px;
   -webkit-hyphens: auto;
@@ -24,7 +24,7 @@ html {
 	font-family: Times, Times New Roman, serif;
     text-align: center;
     color: red;
-    font-size: 22px;
+    font-size: 60px;
     font-weight: normal;
     margin-bottom:1em;
     margin-top: 1em;
@@ -33,7 +33,7 @@ html {
 .perTabla {
     font-family: "Times New Roman", Times, serif;
     color: red;
-	font-size: 22px;
+	font-size: 2em;
     align: center;
 	   }
 .center {
