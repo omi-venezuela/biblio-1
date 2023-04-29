@@ -3,7 +3,7 @@ html {
   hyphens: auto;
 }
 body {
-  font-size: clamp(100%, 1rem + 2vw, 22px);
+  font-size: clamp(100%, 1rem + 2vw, 24px);
 }
 .omi {
 	font-family: "Times New Roman", serif;
