@@ -85,14 +85,14 @@ a:hover {
     text-align: left;
     margin-bottom: 0.5em;
     margin-top: 0.3em;
-    margin-left: 2em;
+    margin-left: 5px;
     font-size: 28px;
 }
 .pTit {
 	font-family: Times, Times New Roman, serif;
     text-align: center;
     color: blue;
-    font-size: 34px;
+    font-size: 24px;
     font-weight: normal;
     margin-bottom:0em;
     margin-top: 1em;
@@ -190,7 +190,7 @@ a:hover {
 }
 
 .butXL {
-  font: normal 26px Times;
+  font: normal 24px Times;
   background-color: orange;
   border: none;
   border-radius: 8px;
@@ -200,12 +200,12 @@ a:hover {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 26px;
+  font-size: 24px;
   margin: 0.2em 0.2em;
   cursor: pointer;
 }
 .butXL {
-  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
 }
 .butXL {
   width: 80%;
@@ -221,7 +221,7 @@ a:hover {
   font-family: Times, Times New Roman, serif;
   letter-spacing: 2px;
   text-align: center;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: normal;
   margin-bottom: 0.2em;
   margin-top: 0.2em;
