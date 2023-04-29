@@ -1,34 +1,181 @@
-
-
-
 html {
-  padding: 0.5ch;
+  padding: 1ch;
   margin: auto;
   hyphens: auto;
-  
 }
 
 .omi {
-
-  font-family: "Times New Roman", serif;
-  font-size: 24px;
-  padding-left: 1px;
-  padding-right: 1px;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
+	font-family: "Times New Roman", serif;
+	font-size: 22px;
+	padding-left: 1px;
+	padding-right: 1px;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+	hyphens: auto;
 }
-  a:hover { color: red }
-  a { text-decoration: none }
-  .pTit {
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+	
+a:hover {
+	color: red;
+}
+
+
+.buttonInit {
 	font-family: Times, Times New Roman, serif;
     text-align: center;
     color: red;
-    font-size: 60px;
+    font-size: 28px;
     font-weight: normal;
-    margin-bottom:1em;
+    margin-bottom:0em;
+    margin-top: 0em;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: solid red 1px;
+}
+
+.sigue {
+	font-family: Times, Times New Roman, serif;
+    text-align: right;
+    font-size: 24px;
+    margin-right: 1em;
+    margin-top: 0em;
+    color: red;
+}
+
+.Poesia {
+	font-family: Times, Times New Roman, serif;
+    text-align: left;
+    margin-left: 3em;
+    margin-bottom: 0.5em;
+    margin-top: 0.2em;
+    text-indent: -1.8em;
+}
+
+.Poesia2 {
+	font-family: Times, Times New Roman, serif;
+    text-align: left;
+    font-style: italic;
+    margin-left: 3em;
+}
+.TitNormal {
+	font-family: Times, Times New Roman, serif;
+    text-align: justify;
+    margin-left: 1.8em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    text-indent: -1.8em;
+}
+
+.Normal {
+	font-family: Times, Times New Roman, serif;
+    text-align: justify;
+    margin-bottom: 0.5em;
+    margin-top: 0.2em;
+    margin-left: 1.8em;
+}
+
+.indice{
+	font-family: Times, Times New Roman, serif;
+    text-align: left;
+    margin-bottom: 0.5em;
+    margin-top: 0.3em;
+    margin-left: 2em;
+    font-size: 28px;
+}
+.pTit {
+	font-family: Times, Times New Roman, serif;
+    text-align: center;
+    color: blue;
+    font-size: 34px;
+    font-weight: normal;
+    margin-bottom:0em;
     margin-top: 1em;
 }
+
+.pT1 {
+	font-family: Times, Times New Roman, serif;
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom:2em;
+    margin-top: 0em;
+}
+
+.pT2 {
+	font-family: Times, Times New Roman, serif;
+    text-align: left;
+    color: blue;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+	margin-top: 1em;
+}
+
+.pT3 {
+	font-family: Times, Times New Roman, serif;
+    text-align: left;
+    font-style: italic;
+    color: blue;
+    font-weight: normal;
+    margin-bottom: 17px;
+    margin-top: 0.5em;
+    margin-left: 1.8em;
+}
+
+.pT4 {
+	font-family: Times, Times New Roman, serif;
+    text-align: center;
+    color: green;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 2em;
+	margin-top: 1em;
+}
+
+.pT5 {
+	font-family: Times, Times New Roman, serif;
+    text-align: left;
+    color: brown;
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 1px;
+    margin-top: 1em;
+}
+
+.Final {
+	font-family: Times, Times New Roman, serif;
+    text-align: right;
+    font-style: italic;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    font-size: 14pxem;
+    color: blue
+}
+
+.red {
+    margin-bottom: 2em;
+    margin-top: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
+	color: red;
+	border-top: 1px solid red;
+}
+	
+.fixedButton {
+  position: fixed;
+  bottom: 30px;
+  right: 0;
+  margin-bottom: 30px;
+}
+
 
 .perTabla {
     font-family: "Times New Roman", Times, serif;
@@ -42,10 +189,10 @@ html {
   margin-right: auto;
   align: center;
 }
+
 .butXL {
   font: normal 1em Times;
   background-color: orange;
-
   border: none;
   border-radius: 8px;
   color: white;
@@ -54,7 +201,7 @@ html {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 22px;
+  font-size: 28px;
   margin: 0.2em 0.2em;
   cursor: pointer;
 }
@@ -64,20 +211,20 @@ html {
 .butXL {
   width: 80%;
 }
-.pT3but {
-  font-family: Times, Times New Roman, serif;
-  letter-spacing: 2px;
-  text-align: center;
-  font-size: 15px;
-  font-weight: normal;
-  margin-bottom: 0.2em;
-  margin-top: 0.2em;
-  color: brown;
-}
 
 .pT3but a:link {
   color: white;
 }
 .pT3but a:visited {
   color: white;
+}
+.pT3but {
+  font-family: Times, Times New Roman, serif;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: normal;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+  color: brown;
 }
