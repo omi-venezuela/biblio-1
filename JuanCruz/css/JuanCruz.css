@@ -77,6 +77,14 @@ a:hover {
     margin-left: 1.8em;
 }
 
+.Normal_a {
+	font-family: Times, Times New Roman, serif;
+    text-align: justify;
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;
+    margin-left: 0;
+}
+
 .indice{
 	font-family: Times, Times New Roman, serif;
     text-align: left;
