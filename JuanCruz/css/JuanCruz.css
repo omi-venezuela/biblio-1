@@ -4,11 +4,10 @@ html {
   max-width: 80ch;
 
 }
-p {
-	font-size: 0.9rem;
-}
+
 body {
-   	font-size: clamp(100%, 1rem + 2vw, 22px);
+	font-size: 1rem;
+	font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
 	font-family: "Times New Roman", serif;
 	padding-left: 1px;
 	padding-right: 1px;
@@ -16,9 +15,7 @@ body {
     -ms-hyphens: auto;
 	hyphens: auto;
 }
-p {
-	font-size: 0.95rem;
-}
+
 
 a:link {
     color: blue;
