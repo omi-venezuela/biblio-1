@@ -1,17 +1,33 @@
 html {
-  max-width: 80ch;
-  padding: 0.5ch;
   margin: auto;
-  color: #333;
-  font-size: 1em;
+  hyphens: auto;
+  max-width: 80ch;
 }
-.omi {
-  display: block;
-  font-family: "Times New Roman", serif;
-  font-size: 1em;
-  padding-left: 2px;
-  padding-right: 2px;
+
+body {
+	font-size: 1.1rem;
+	font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+	font-family: "Times New Roman", serif;
+	padding-left: 1px;
+	padding-right: 1px;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+	hyphens: auto;
 }
+
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+	
+a:hover {
+	color: red;
+}
+
 
 div.sgc-toc-title {
   color: black;
