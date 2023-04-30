@@ -1,11 +1,14 @@
 html {
   margin: auto;
   hyphens: auto;
-   max-width: 80ch;
+  max-width: 80ch;
 
 }
+p {
+	font-size: 0.9rem;
+}
 body {
-   	font-size: clamp(100%, 1rem + 2vw, 23px);
+   	font-size: clamp(100%, 1rem + 2vw, 18px);
 	font-family: "Times New Roman", serif;
 	padding-left: 1px;
 	padding-right: 1px;
@@ -13,7 +16,9 @@ body {
     -ms-hyphens: auto;
 	hyphens: auto;
 }
-
+p {
+	font-size: 0.9rem;
+}
 
 a:link {
     color: blue;
@@ -32,7 +37,7 @@ a:hover {
 .sigue {
 	font-family: Times, Times New Roman, serif;
     text-align: right;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
     margin-right: 18px;
     margin-top: 0em;
     color: red;
@@ -94,13 +99,13 @@ a:hover {
     margin-top: 0.3em;
     margin-left: 1.8em;
 	text-indent: -1.8em;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .pTit {
 	font-family: Times, Times New Roman, serif;
     text-align: center;
     color: blue;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 	font-variant: small-caps;
     font-weight: normal;
     margin-bottom:10px;
@@ -111,9 +116,9 @@ a:hover {
 	font-family: Times, Times New Roman, serif;
     text-align: center;
     color: red;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: normal;
-    margin-bottom:2em;
+    margin-bottom:1.5em;
     margin-top: 0em;
 }
 
@@ -121,7 +126,7 @@ a:hover {
 	font-family: Times, Times New Roman, serif;
     text-align: left;
     color: blue;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	font-weight: bold;
 	margin-bottom: 0.5em;
 	margin-top: 1em;
@@ -152,7 +157,6 @@ a:hover {
 	font-family: Times, Times New Roman, serif;
     text-align: left;
     color: brown;
-
     font-weight: normal;
     margin-bottom: 1px;
     margin-top: 1em;
