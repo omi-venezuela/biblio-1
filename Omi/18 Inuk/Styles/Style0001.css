@@ -12,6 +12,22 @@ font-style: normal;
 font-weight: normal;
 src : url("../Fonts/LibreBaskerville-Bold.ttf");
 }
+html {
+  margin: auto;
+  hyphens: auto;
+  max-width: 80ch;;
+}
+body {
+	font-size: 1.1rem;
+	font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+	font-family: "Times New Roman", serif;
+	padding-left: 1px;
+	padding-right: 1px;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+	hyphens: auto;
+}
+
 
 h1{
  font-family: "LibreBaskerville-Bold", Times, serif;
@@ -38,14 +54,14 @@ h2{
 
 p.pNormalFirst::first-letter{
 	font-family: "LibreBaskerville-Bold";
-	font-size:2.5em;
+	margin-top: -2rem;
+	font-size: 300%;
 	float:left;
-	margin:0 0.05em 0 0;
+	padding-right: 0.5rem;
 	color:brown;
 }
 h3{
 	font-family: "LibreBaskerville-Bold", Times, serif;
-	font-size:1em;
 	margin: 2em 0.84em 1em 0.84em;
 	page-break-after:avoid;
 	text-align:center;
@@ -54,10 +70,10 @@ h3{
  }
 .pNormal{
  font-family: "LibreBaskerville-Regular", Times, serif;
+
  text-indent: 30px;
  text-align: justify;
  font-weight: normal;
- font-size: 0.84em;
  margin-bottom: 6px;
  margin-top: 0px;
 
@@ -69,7 +85,6 @@ h3{
  text-indent: 0px;
  text-align: justify;
  font-weight: normal;
- font-size: 0.84em;
  margin-bottom: 6px;
  margin-top: 0px;
 
