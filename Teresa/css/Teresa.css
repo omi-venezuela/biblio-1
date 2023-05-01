@@ -72,23 +72,31 @@ a:hover {
 .TitNormal {
 	font-family: "LibreBaskerville-Regular";
     text-align: justify;
-    margin-left: 2em;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
-    text-indent: -1.6em;
+ 
+}
+.num{
+	font-family: "LibreBaskerville-Regular";
+    font-style: bold;
+	color: red;
+
+ 
 }
 
 .Normal {
 	font-family: "LibreBaskerville-Regular";
     text-align: justify;
+	text-indent: 2em;
     margin-bottom: 0.5em;
     margin-top: 0.2em;
-    margin-left: 1.8em;
+
 }
 
 .Normal_a {
 	font-family: "LibreBaskerville-Regular";
     text-align: justify;
+
     margin-bottom: 0.2em;
     margin-top: 0.2em;
     margin-left: 0;
