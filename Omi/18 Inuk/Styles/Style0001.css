@@ -54,10 +54,13 @@ h2{
 
 p.pNormalFirst::first-letter{
 	font-family: "LibreBaskerville-Bold";
-	margin-top: -2rem;
-	font-size: 300%;
+	font-style: normal;
 	float:left;
-	padding-right: 0.5rem;
+	font-size: 52px;
+	vertical-align: bottom;
+	Line-height: 58px;
+	padding-right: 4px;
+	padding-bottm: 0px;
 	color:brown;
 }
 h3{
