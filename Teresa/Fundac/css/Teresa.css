@@ -28,7 +28,13 @@ body {
     -ms-hyphens: auto;
 	hyphens: auto;
 }
-
+hr {
+	border-top: 1px solid red;
+	margin-top: 2em;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 3em;
+}
 
 a:link {
     color: blue;
@@ -135,6 +141,16 @@ a:hover {
 .pT2 {
 	font-family: "LibreBaskerville-Regular";
     text-align: left;
+    color: blue;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+	margin-top: 1em;
+}
+
+h2 {
+	font-family: "LibreBaskerville-Regular";
+    text-align: left;
+	font-size: 1.2rem;
     color: blue;
 	font-weight: bold;
 	margin-bottom: 0.5em;
