@@ -61,8 +61,9 @@ html {
 }
 
 body {
+	font-family: "Merriweather-Regular";
 	font-size: 1.1rem;
-	font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+	font-size: clamp(1.1rem, 1.2rem + 0.25vw, 1.5rem);
 	line-height: 150%;
 	padding-left: 2%;
 	padding-right: 2%;
@@ -95,7 +96,7 @@ hr {
 
 
 h2 {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Merriweather-Black";
 	font-size: 1.2rem;
     text-align: left;
     color: blue;
@@ -105,7 +106,7 @@ h2 {
 }
 
 .sigue {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Merriweather-Black";
     text-align: right;
 	font-size: 1.1rem;
     margin-right: 18px;
@@ -114,7 +115,7 @@ h2 {
 }
 
 .Poesia {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Merriweather-Black";
     text-align: left;
     margin-left: 1.8em;
     margin-bottom: 0.5em;
@@ -123,14 +124,14 @@ h2 {
 }
 
 .Poesia2 {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Merriweather-Light";
     text-align: left;
     font-style: italic;
     margin-left: 1.8em;
 }
 
 .TitNormal {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Merriweather-Black";
     text-align: justify;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
@@ -221,7 +222,7 @@ h2 {
 }
 
 .indice{
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Merriweather-Black";
     text-align: left;
     font-style: italic;
     margin-bottom: 1em;
@@ -231,7 +232,7 @@ h2 {
 	color: brown;
 }
 .indice_a{
-	font-family: "LibreBaskerville-Regular";
+	font-family: ""Merriweather-Black";
     text-align: left;
 	text-indent: -4em;
     margin-bottom: 0em;
@@ -241,7 +242,7 @@ h2 {
 
 }
 .pTit {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Merriweather-Black";
     text-align: center;
     color: blue;
     font-size: 1.2rem;
@@ -255,10 +256,10 @@ h2 {
 	font-family: "Merriweather-Black";
     text-align: center;
     color: red;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: normal;
-    margin-bottom:1.5em;
-    margin-top: 3em;
+    margin-bottom:1.2em;
+    margin-top: 2em;
 }
 
 .pT2 {
@@ -271,7 +272,7 @@ h2 {
 }
 
 .pT3 {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Merriweather-Black";
     text-align: center;
     font-style: italic;
     color: blue;
@@ -282,7 +283,7 @@ h2 {
 }
 
 .pT4 {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Merriweather-Black";
     text-align: center;
     color: green;
 	font-size: 0.9rem;
@@ -292,7 +293,7 @@ h2 {
 }
 
 .pT5 {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Merriweather-Black";
     text-align: left;
     color: brown;
     font-weight: normal;
@@ -301,7 +302,7 @@ h2 {
 }
 
 .CartaPor {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Merriweather-Black";
     text-align: left;
     margin-left: 1.8em;
     margin-bottom: 0.5em;
@@ -311,7 +312,7 @@ h2 {
 }
 
 .Final {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Merriweather-Black";
     text-align: right;
     font-style: italic;
     margin-bottom: 0em;
@@ -321,7 +322,7 @@ h2 {
 }
 
 .Subtítulo {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Merriweather-Black";
     text-align: justify;
 	line-height: 140%;
     font-style: italic;
@@ -393,7 +394,7 @@ h2 {
   color: white;
 }
 .pT3but {
-  font-family: "LibreBaskerville-Regular";
+  font-family: "Merriweather-Black";
   letter-spacing: 3px;
   text-align: center;
   font-weight: normal;
