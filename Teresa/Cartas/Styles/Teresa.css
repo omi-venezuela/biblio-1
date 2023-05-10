@@ -63,7 +63,7 @@ html {
 body {
 	font-size: 1.1rem;
 	font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
-	line-height: 160%;
+	line-height: 150%;
 	padding-left: 2%;
 	padding-right: 2%;
     -webkit-hyphens: auto;
@@ -170,16 +170,16 @@ h2 {
     text-align: left;
     margin-bottom: 0em;
     margin-top: 0em;
-	color: grey
 }
+
 .TeresaDest {
 	font-style: italic;
 	font-size: 1.05rem;
     text-align: left;
     margin-bottom: 0em;
     margin-top: 0em;
-	color: grey
 }
+
 .TeresaFirma {
 	font-family: "Merriweather-Regular";
 	font-size: 1.05rem;
@@ -187,7 +187,6 @@ h2 {
     text-align: left;
     margin-bottom: 0em;
     margin-top: 0em;
-	color: grey
 }
 
 .Sigla {
