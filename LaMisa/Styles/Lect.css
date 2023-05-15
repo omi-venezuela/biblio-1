@@ -1,12 +1,21 @@
 /* Imposta body */
 
 html {
-	max-width: 80ch;
-	padding: 0.5ch;
-	margin: auto;
-	color: #333;
-	font-size: 1em;
+  margin: auto;
+  hyphens: auto;
+  max-width: 80ch;
 }
+body {
+	font-size: 1.1rem;
+	font-size: clamp(1.1rem, 1.2rem + 0.25vw, 1.5rem);
+	line-height: 120%;
+	padding-left: 2%;
+	padding-right: 2%;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+	hyphens: auto;
+}
+
 .butXL {
   font: normal 1em Times;
   background-color: orange;
@@ -19,7 +28,7 @@ html {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1em;
+  font-size: 1rem;
   margin: 0.2em 0.2em;
   cursor: pointer;
 }
@@ -33,7 +42,7 @@ html {
   font-family: Times, Times New Roman, serif;
   letter-spacing: 2px;
   text-align: center;
-  font-size: 1.1em;
+  font-size: 1.2rem;
   font-weight: normal;
   margin-bottom: 0.2em;
   margin-top: 0.2em;
@@ -63,117 +72,7 @@ h4 {
   margin-right: auto;
   width: 35%;
 }
-.button {
-  font: bold 1em Times;
-  background-color: #00802b; /* Green */
-  border: none;
-  color: white;
-  padding: 0.2em 0.01em;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.2em;
-  margin: 0.1em 0.1em;
-  cursor: pointer;
-}
-.button {
-  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2), 0 8px 20px 0 rgba(0,0,0,0.19);
-}
-.button {width: 13%;}
 
-button {
-  font-family:"Times New Roman", serif;
-  letter-spacing:1px;
-  background-color: #00802b; /* Green */
-  border: 1px dotted red;
-  color: white;
-  padding: 0.4em 0.4em;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1em;
-  margin-left: auto;
-  margin-right: auto;
-  cursor: pointer;
-}
-button {
-  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2), 0 8px 20px 0 rgba(0,0,0,0.19);
-}
-button {width: 25%;}
-
-button[disabled]{
-  border: 1px dotted white;
-  background-color: #cccccc;
-  color: #666666;
-  cursor: default;
-}
-
-.button3 {
-  font: bold 1em Times;
-  background-color: #00802b; /* Green */
-  border: none;
-  color: white;
-  padding: 0.2em 0.01em;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.1em;
-  margin: 0.1em 0.1em;
-  cursor: pointer;
-}
-.button3 {
-  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2), 0 8px 20px 0 rgba(0,0,0,0.19);
-}
-.button3 {width:48%;}
-
-.buttonXL {
-  text-align: center;
-  font: bold 1em Times;
-  background-color: #00802b; /* Green */
-  border: none;
-  color: white;
-  padding: 0.2em 0.2em;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.2em;
-  margin: 0.2em 0.2em;
-  cursor: pointer;
-}
-.buttonXL {
-  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2), 0 8px 20px 0 rgba(0,0,0,0.19);
-}
-.buttonXL {width: 70%;}
-
-
-
-.button_c {
-	color: white !important;
-	letter-spacing:1px;
-	text-decoration: none;
-	margin-top:0.5em;
-	margin-bottom:0.5em;
-	background: brown;
-	padding: 5px;
-	border-radius: 5px;
-	display: inline-block;
-	border: none;
-	transition: all 0.4s ease 0s;
-	}
-
-.button_c {width: 80%;}
-
-.button_c {
-  box-shadow: 10px 10px 10px 0 rgba(0,0,0,0.2), 0 8px 20px 0 rgba(0,0,0,0.29);
-}
-.button_c:hover {
-	background: #434343;
-	letter-spacing: 3px;
-	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-	transition: all 0.4s ease 0s;
-}
 
 .pLinkIni{
     font-family:serif;
@@ -182,15 +81,6 @@ button[disabled]{
     }
 
 
-
-.omi {
-    display:block;
-    font-family:"Times New Roman", serif;
-    line-eight:normal;
-    font-size:1em;
-	padding-left:2px;
-	padding-right:2px;
-    }
 
 .oBienDiv {
     opacity:0.6;
@@ -256,9 +146,9 @@ button[disabled]{
 .IndOrd{
     font-family:Times, Times New Roman, serif;
     background-color:#F0F0F0;
-    line-height:1.7em;
+    line-height:1.5rem;
     text-align:center;
-    font-size:1em;
+    font-size:1rem;
     font-weight:bold;
     color:#006622;
     margin-top:0.2em;
@@ -274,7 +164,6 @@ button[disabled]{
     font-family:Times, Times New Roman, serif;
     line-height:2.2em;
     text-align:center;
-    font-size:1.1em;
     font-weight:bold;
     color:#006622;
     margin-top:0em;
@@ -290,22 +179,16 @@ hr {
     }
 
 
-
 /* class per titoli es.:<h1 class"pT1"> */
 .pT1{
     font-family:Times, Times New Roman, serif;
     text-align:center;
     font-weight:bold;
-    font-size:1.5em;
+    font-size:1.5rem;
     margin-bottom:0.3;
     margin-top:0.3em;
     color:red;
     }
-
-
-
-
-
 
 .pT2{
     font-family:Times, Times New Roman, serif;
@@ -399,14 +282,15 @@ hr {
     font-size:0.7em;
 	text-transform:lowercase;
  	font-variant:small-caps;
-	letter-spacing:0.05em;
+	letter-spacing:0.05rem;
     margin-top:0px;
-    margin-bottom:12px;
+    margin-bottom:0.3rem;
     }
 
 .Prefac_V {
     color:black;
-	font-size:1em;
+	font-size:1rem;
+    line-height:1rem;
     margin-top:0em;
     margin-bottom:0em;
     margin-left:0em;
@@ -415,8 +299,9 @@ hr {
 .Prefac_R {
     color:black;
     font-style:italic;
-	font-size:0.9em;
-    margin-left:1.6em;
+    line-height:1rem;
+	font-size:0.8rem;
+    margin-left:1.5rem;
     margin-top:0em;
     margin-bottom:0.5em;
     }
@@ -441,7 +326,8 @@ hr {
 .Sanctus {
     color:black;
     display:block;
-    font-size:0.8em;
+    font-size:0.8rem;
+    line-height:1rem;
     font-style:italic;
     margin-left:3em;
     margin-top:0.5em;
@@ -511,11 +397,11 @@ hr {
 
 .SalmoEtc{
     font-family:Times, Times New Roman, serif;
-    font-size:0.8em;
+    font-size:1rem;
     font-weight:bold;
     color:red;
     margin-top:18px;
-    margin-bottom:0px;
+    margin-bottom:0rem;
     }
 
 /* Si no hai la cita del Salmo ----*/
@@ -536,7 +422,7 @@ hr {
     text-indent:-25px;
     padding-left:25px;
     margin-top:0px;
-    margin-bottom:7px;
+    margin-bottom:0.5rem;
     }
 
 .SalmoEstrib::first-letter {
@@ -552,6 +438,7 @@ hr {
     color:red;
     margin-top:0px;
     margin-bottom:8px;
+	line-height: 0.4rem
     }
 
 .SalmoTxt{
@@ -596,6 +483,7 @@ hr {
     font-style:italic;
     margin-top:2px;
     margin-bottom:12px;
+	line-height:0.6rem
 }
 
 /* oBienDiv es para <div class"oBien"> - oBienPara es para O bien*/
@@ -652,7 +540,7 @@ hr {
 
 
 .Antifona {
-    font-size:1em;
+ 
 	color:black;
     margin-top:0.2em;
     margin-bottom:0.5em;
@@ -660,14 +548,13 @@ hr {
     }
 .AntifonaALT::first-letter {
 	position:relative;
-  	font-family:DampfPlatzsh; 
     line-height:0em;
 	float:left;
 	margin-top:0.65em;
-	margin-bottom:0.1em;
+	margin-bottom:0em;
     padding-right: 0.05em;
     padding-left: 0em;
-    font-size:2em;
+    font-size:2.1rem;
     font-weight:bold;
     color:red;
 
@@ -679,26 +566,28 @@ hr {
     line-height:0em;
 	float:left;
 	margin-top:0.48em;
-	margin-bottom:0.1em;
+	margin-bottom:0rem;
     padding-right: 0.05em;
     padding-left: 0em;
-    font-size:2.8em;
+    font-size:3.6rem;
     font-weight:bold;
     color:red;
     }
 
 .AntSmall {
     color:red;
-    font-size:0.8em;
-    margin-left:3em;
+    line-height:0.9rem;
+    font-size:0.9rem;
+    margin-left:3rem;
     margin-bottom:0em;
     margin-top:1.5em;
     }
 
 .Citaz1 {
     color:red;
-    font-size:0.8em;
-    margin-left:3em;
+    font-size:0.8rem;
+    line-height:0.9rem;
+    margin-left:3rem;
     margin-bottom:0.3em;
     margin-top:0em;
     }
@@ -706,8 +595,9 @@ hr {
 .AntSmallTxt {
     color:black;
     display:block;
-    font-size:0.8em;
-    margin-left:3em;
+    line-height:1rem;
+    font-size: 1rem;
+    margin-left:3rem;
     margin-top:0em;
     margin-right:7em;
     }
@@ -899,6 +789,117 @@ hr {
     margin-top:5em;
     }	
 	
+.button {
+  font: bold 1em Times;
+  background-color: #00802b; /* Green */
+  border: none;
+  color: white;
+  padding: 0.2em 0.01em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2em;
+  margin: 0.1em 0.1em;
+  cursor: pointer;
+}
+.button {
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2), 0 8px 20px 0 rgba(0,0,0,0.19);
+}
+.button {width: 13%;}
+
+button {
+  font-family:"Times New Roman", serif;
+  letter-spacing:1px;
+  background-color: #00802b; /* Green */
+  border: 1px dotted red;
+  color: white;
+  padding: 0.4em 0.4em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+button {
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2), 0 8px 20px 0 rgba(0,0,0,0.19);
+}
+button {width: 25%;}
+
+button[disabled]{
+  border: 1px dotted white;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: default;
+}
+
+.button3 {
+  font: bold 1em Times;
+  background-color: #00802b; /* Green */
+  border: none;
+  color: white;
+  padding: 0.2em 0.01em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2em;
+  margin: 0.1em 0.1em;
+  cursor: pointer;
+}
+.button3 {
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2), 0 8px 20px 0 rgba(0,0,0,0.19);
+}
+.button3 {width:48%;}
+
+.buttonXL {
+  text-align: center;
+  letter-spacing:0.05rem;
+  background-color: #00802b; /* Green */
+  border: none;
+  color: white;
+  padding: 0.2em 0.2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.2em 0.2em;
+  cursor: pointer;
+}
+.buttonXL {
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2), 0 8px 20px 0 rgba(0,0,0,0.19);
+}
+.buttonXL {width: 70%;}
+
+
+
+.button_c {
+	color: white !important;
+	letter-spacing:1px;
+	text-decoration: none;
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+	background: brown;
+	padding: 5px;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+	}
+
+.button_c {width: 80%;}
+
+.button_c {
+  box-shadow: 10px 10px 10px 0 rgba(0,0,0,0.2), 0 8px 20px 0 rgba(0,0,0,0.29);
+}
+.button_c:hover {
+	background: #434343;
+	letter-spacing: 3px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
 .fixedButton {
   position: fixed;
   bottom: 0;
