@@ -1,12 +1,19 @@
 html {
-  max-width: 60ch;
-  padding: 0.5ch;
   margin: auto;
-  font-size: 1em;
   hyphens: auto;
+  max-width: 80ch;
 }
-
-.omi {
+body {
+	font-size: 1.1rem;
+	font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+	font-family: "Times New Roman", serif;
+	padding-left: 1px;
+	padding-right: 1px;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+	hyphens: auto;
+}
+.Ex_omi {
  /* background-color: #ffffcc;*/
   display: block;
   font-family: "Times New Roman", serif;
@@ -25,7 +32,7 @@ h1 {
   font-family: Times, Times New Roman, serif;
   text-align: center;
   font-weight: bold;
-  font-size: 1.8em;
+  font-size: 1.6rem;
   margin-bottom: 1em;
   margin-top: 0;
   color: black;
@@ -33,7 +40,7 @@ h1 {
 h2 {
   font-family: Times, Times New Roman, serif;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 0.5em;
   margin-top: 1em;
@@ -43,7 +50,7 @@ h2 {
 h2.pT2 {
   font-family: Times, Times New Roman, serif;
   text-align: center;
-  font-size: 1.1em;
+
   font-weight: bold;
   margin-bottom: 0.5em;
   margin-top: 0.5em;
@@ -87,15 +94,9 @@ hr.Invit {
   margin-left: 0em;
 }
 
-p {
-  font-family: Times, Times New Roman, serif;
-  margin-right: 0;
-  margin-left: 0;
-  font-size: 1.05em;
-}
+
 .Ant {
   font-family: Times, Times New Roman, serif;
-  font-size: 1em;
   font-weight: normal;
   text-indent: -1.5em;
   margin-top: 0.5em;
@@ -136,7 +137,6 @@ p {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1em;
   margin: 0.1em 0.1em;
   cursor: pointer;
 }
@@ -149,7 +149,7 @@ p {
 .butTit1 {
   font-family: Times, Times New Roman, serif;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.7rem;
   letter-spacing: 2px;
   font-weight: bold;
   margin-bottom: 0.8em;
@@ -163,7 +163,6 @@ p {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1em;
   margin: 0.1em 0.1em;
   cursor: pointer;
   border-radius: 6px;
@@ -178,13 +177,12 @@ p {
   background-color: #bb1919;
   border: none;
   color: white;
-  padding-bottom: 0.4em;
-  padding-top: 0.4em;
+  padding-bottom: 0.4rem;
+  padding-top: 0.4rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 0.9em;
-  margin: 0.1em 0.1em;
+  margin: 0.1rem 0.1rem;
   cursor: pointer;
   border-radius: 6px;
 }
@@ -206,7 +204,6 @@ p {
   margin-top: 0.3em;
 }
 .butXL {
-  font: normal 1em Times;
   background-color: orange;
 
   border: none;
@@ -217,7 +214,6 @@ p {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1em;
   margin: 0.2em 0.2em;
   cursor: pointer;
 }
@@ -231,7 +227,7 @@ p {
   font-family: Times, Times New Roman, serif;
   margin-right: 0;
   margin-left: 0;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   text-align: center;
   color: brown;
 }
@@ -239,7 +235,6 @@ p {
   display: block;	
   font-family: Times, Times New Roman, serif;
   text-align: center;
-  font-size: 1.1em;
   font-weight: normal;
   letter-spacing: 2px;
   color: #062;
@@ -271,7 +266,6 @@ p {
 .h_ref {
   font-family: Times, Times New Roman, serif;
   text-align: center;
-  font-size: 1.1em;
   margin-left: 0;
   line-height: 25px;
   margin-bottom: 0;
@@ -328,7 +322,7 @@ p {
 }
 .ItRed {
   font-family: Times, Times New Roman, serif;
-  font-size: 1em;
+  font-size: 1rem;
   font-style: normal;
   color: red;
   margin-top: 0.5em;
@@ -337,7 +331,7 @@ p {
 }
 .Lectura {
   font-family: Times, Times New Roman, serif;
-  font-size: 0.9em;
+  font-size: 0.9rem;
   font-weight: bold;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -348,7 +342,6 @@ p {
 }
 .Normal {
   font-family: Times, Times New Roman, serif;
-  font-size: 1em;
   text-indent: -1.8em;
   padding: 0 0 0 3em;
   margin-top: 0.2em;
@@ -360,7 +353,6 @@ p {
 
 .Oremos {
   font-family: Times, Times New Roman, serif;
-  font-size: 1em;
   text-align: left;
   font-style: normal;
   font-weight: normal;
@@ -376,7 +368,6 @@ p {
 }
 .Prece {
   font-family: Times, Times New Roman, serif;
-  font-size: 1em;
   font-style: italic;
   margin-left: 1.5em;
   margin-top: 0;
@@ -384,7 +375,7 @@ p {
 }
 .pRight {
   font-family: Times, Times New Roman, serif;
-  font-size: 0.8em;
+  font-size: 0.9rem;
   font-weight: normal;
   color: red;
   font-style: italic;
@@ -396,7 +387,7 @@ p {
   font-family: Times, Times New Roman, serif;
   text-align: center;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.4rem;
   margin-bottom: 0.3;
   margin-top: 0.3em;
   color: red;
@@ -405,7 +396,7 @@ p {
   font-family: Times, Times New Roman, serif;
   text-align: center;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   margin-bottom: 0;
   color: red;
 }
@@ -413,7 +404,6 @@ p {
   font-family: Times, Times New Roman, serif;
   text-transform: uppercase;
   text-align: center;
-  font-size: 1.1em;
   font-weight: bold;
   margin-bottom: 0.2em;
   color: red;
@@ -422,7 +412,6 @@ p {
   font-family: Times, Times New Roman, serif;
   letter-spacing: 2px;
   text-align: center;
-  font-size: 1.1em;
   font-weight: normal;
   margin-bottom: 0.2em;
   margin-top: 0.2em;
@@ -430,7 +419,7 @@ p {
 }
 .pT4 {
   font-family: Times, Times New Roman, serif;
-  font-size: 0.9em;
+  font-size: 0.9rem;
   color: red;
   text-align: center;
   font-style: normal;
@@ -440,7 +429,6 @@ p {
 }
 .respR {
   font-family: Times, Times New Roman, serif;
-  font-size: 1em;
   text-indent: -2em;
   margin-left: 2em;
   margin-top: 0.2em;
@@ -449,7 +437,6 @@ p {
 }
 .respV {
   font-family: Times, Times New Roman, serif;
-  font-size: 1em;
   text-indent: -2em;
   margin-left: 2em;
   margin-top: 0.7em;
@@ -478,7 +465,7 @@ p {
 }
 .SalmoEtc {
   font-family: Times, Times New Roman, serif;
-  font-size: 0.8em;
+  font-size: 0.8rem;
   font-weight: bold;
   color: red;
   margin-top: 1em;
@@ -486,21 +473,21 @@ p {
 }
 .SalmoNum {
   font-family: Times, Times New Roman, serif;
-  font-size: 0.9em;
+  font-size: 0.9rem;
   color: red;
   margin-top: 0;
   margin-bottom: 8px;
 }
 .SalmoNum2 {
   font-family: Times, Times New Roman, serif;
-  font-size: 0.6em;
+  font-size: 0.6rem;
   color: red;
   margin-top: 0;
   margin-bottom: 8px;
 }
 .SalmoTit {
   font-family: Times, Times New Roman, serif;
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: bold;
   color: red;
   margin-top: 1em;
@@ -508,7 +495,6 @@ p {
 }
 .SalmoTxt {
   font-family: Times, Times New Roman, serif;
-  font-size: 1em;
   text-indent: -11px;
   padding: 0 0 0 11px;
   margin-top: 0.2em;
@@ -518,7 +504,6 @@ p {
 
 .Pres {
   font-family: Times, Times New Roman, serif;
-  font-size: 1em;
   color: brown;
   text-indent: -22px;
   padding: 0 0 0 22px;
@@ -530,7 +515,6 @@ p {
 
 .sinNum {
   font-family: Times, Times New Roman, serif;
-  font-size: 1.1em;
   font-style: italic;
   font-weight: normal;
   margin-top: 0.2em;
@@ -540,7 +524,6 @@ p {
 .TxtNorm {
   font-family: Times, Times New Roman, serif;
   text-align: justify;
-  font-size: 1em;
   text-indent: 1.5em;
   margin-top: 0;
   margin-bottom: 0.3em;
@@ -554,7 +537,6 @@ p {
 }
 .V_R {
   font-family: Times, Times New Roman, serif;
-  font-size: 1em;
   text-indent: -2em;
   margin-left: 2em;
   margin-top: 0.2em;
@@ -563,14 +545,12 @@ p {
 .WeekDay {
   font-family: Times, Times New Roman, serif;
   font-weight: bold;
-  font-size: 1.1em;
   text-align: right;
   margin-top: 3em;
   margin-bottom: 1em;
 }
 .Year {
   font-family: Times, Times New Roman, serif;
-  font-size: 1.1em;
   font-weight: bold;
   color: red;
   margin-top: 1em;
@@ -629,7 +609,7 @@ h2.pT3 {
   font-family: Times, Times New Roman, serif;
   text-transform: uppercase;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-weight: bold;
   margin-bottom: 0.2em;
   color: brown;
@@ -654,7 +634,7 @@ h2.pT3 {
   font-family: Times, Times New Roman, serif;
   letter-spacing: 2px;
   text-align: center;
-  font-size: 0.9em;
+  font-size: 0.9rem;
   font-weight: normal;
   margin-bottom: 0.1em;
   margin-top: 0.1em;
@@ -671,11 +651,10 @@ h2.pT3 {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1em;
   margin: 0.2em 0.2em;
   cursor: pointer;
   border-radius: 50%;
-  text-align: center;
+  
 }
 .buttonInv {
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
