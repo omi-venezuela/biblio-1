@@ -253,10 +253,10 @@ hr.Invit {
 }
 .fixedButton {
   position: fixed;
-  bottom: 0;
-  right: 0;
-  margin-bottom: 0;
+  right: 2px;
+  bottom: 20px;
 }
+
 .h_ref {
 
   text-align: center;
@@ -586,6 +586,7 @@ hr.Invit {
   font-weight: bold;
   color: red;
   margin-right: 0.05em;
+  initial-letter: 2;
 }
 
 .Pres::first-letter {
