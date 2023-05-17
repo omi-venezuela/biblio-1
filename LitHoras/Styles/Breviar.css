@@ -496,8 +496,8 @@ hr.Invit {
 
 .SalmoNum {
 
-  font-size: 0.9rem;
-  line-height:1rem;
+  font-size: 1rem;
+  line-height:1.1rem;
   color: red;
   margin-top: 0;
   margin-bottom: 8px;
