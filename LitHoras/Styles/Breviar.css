@@ -251,6 +251,11 @@ hr.Invit {
   border-right: solid 5px;
   border-color: orange;
 }
+.fixedButtonBack {
+  position: fixed;
+  right: 2px;
+  bottom: 100px;
+}
 .fixedButton {
   position: fixed;
   right: 2px;
@@ -323,6 +328,29 @@ hr.Invit {
   margin-bottom: 0.2rem;
   margin-left: 0;
 }
+
+.ItRed_San {
+  font-family: Times, Times New Roman, serif;
+  text-align: center;
+  font-size: 1.2em;
+  font-style: normal;
+  color: red;
+  margin-top: 0em;
+  margin-bottom: 1.5em;
+  margin-left: 0;
+}
+
+.TipoSan {
+  font-family: Times, Times New Roman, serif;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0.5em;
+  margin-top: 0;
+  font-size: 1.3em;
+  text-align: center;
+  color: red;
+}
+
 .Lectura {
 
   font-size: 1rem;
@@ -465,10 +493,11 @@ hr.Invit {
   margin-top: 1em;
   margin-bottom: 0;
 }
+
 .SalmoNum {
 
   font-size: 0.9rem;
-  line-height:0;
+  line-height:1rem;
   color: red;
   margin-top: 0;
   margin-bottom: 8px;
@@ -586,7 +615,7 @@ hr.Invit {
   font-weight: bold;
   color: red;
   margin-right: 0.05em;
-  initial-letter: 2;
+
 }
 
 .Pres::first-letter {
@@ -659,3 +688,8 @@ h2.pT3 {
   width: 25px;
 }
 
+.FixButton {
+	color:red;
+   border: 2px solid red;
+   font-size: 1.3rem;
+}
