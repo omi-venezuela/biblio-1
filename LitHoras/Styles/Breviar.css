@@ -149,24 +149,10 @@ hr.Invit {
   margin-bottom: 0.8em;
   color: red;
 }
-.button {
-  background-color: #bb1919;
-  border: none;
-  color: white;
-  padding: 0.3em 0.3em;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 0.1em 0.1em;
-  cursor: pointer;
-  border-radius: 6px;
-}
-.button {
-  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.button {
-  width: 15%;
-}
+
+
+
+
 .buttonL {
   background-color: #bb1919;
   border: none;
@@ -254,8 +240,12 @@ hr.Invit {
 .fixedButtonBack {
   position: fixed;
   right: 2px;
-  bottom: 100px;
+  padding: 0;
+  border: none;
+  background: none;
+  top: 10px;
 }
+
 .fixedButton {
   position: fixed;
   right: 2px;
