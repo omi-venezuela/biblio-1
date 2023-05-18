@@ -656,6 +656,26 @@ h2.pT3 {
   color: brown;
 }
 
+.button {
+  background-color: #bb1919;
+  border: none;
+  color: white;
+  padding: 0.3em 0.3em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 0.1em 0.1em;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.button {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button {
+  width: 15%;
+}
+
 .buttonInv {
   background-color: white;
   border: 2px solid;
