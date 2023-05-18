@@ -675,7 +675,9 @@ h2.pT3 {
 .button {
   width: 15%;
 }
-
+.flechaBk {
+  opacity: .5;
+}
 .buttonInv {
   background-color: white;
   border: 2px solid;
