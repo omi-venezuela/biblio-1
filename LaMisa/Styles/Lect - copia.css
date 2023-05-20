@@ -561,8 +561,15 @@ hr {
     }
 
 .Antifona::first-letter {
-	initial-letter: 2;
-    padding-right: 0.1em;
+	position:relative;
+
+    line-height:0em;
+	float:left;
+	margin-top:0.48em;
+	margin-bottom:0rem;
+    padding-right: 0.05em;
+    padding-left: 0em;
+    font-size:3.6rem;
     font-weight:bold;
     color:red;
     }
