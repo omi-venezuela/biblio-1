@@ -5,8 +5,629 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Santos</title>
-  <link href="../Styles/Lect.css" type="text/css" rel="stylesheet"/>
+ <title>Misa San Eugenio</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<style>
+ html {
+  margin: auto;
+  hyphens: auto;
+  max-width: 80ch;
+}
+body {
+	font-size: 1.1rem;
+	font-size: clamp(1.1rem, 1.2rem + 0.25vw, 1.5rem);
+	line-height: 120%;
+	padding-left: 2%;
+	padding-right: 2%;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+	hyphens: auto;
+}
+	
+.sgc-toc-level-1 {
+    margin-left: 1em;
+    font-size: 1em;
+	margin-bottom:0.5em;
+	margin-top:0em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.Separa {
+	    margin-bottom: 3em;
+    }
+
+.piccolo {
+    font-size: 0.9em;
+    font-style: italic;
+	margin-top: 0em;
+    text-align: right;
+	margin-bottom: 1em;
+    }
+
+.Cover1 {
+    color: black;
+    display: block;
+    font-size: 2em;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0
+    }
+
+.Cover2 {
+    color: black;
+    display: block;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 3em;
+    padding: 0
+    }
+
+
+
+
+
+
+.blockTMP {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #4CAF50;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+
+.pLinkIni{
+    font-family:serif;
+    text-align:right;
+    margin-right:1em;  
+    }
+
+
+
+.omi {
+    display:block;
+    font-family:"Times New Roman", serif;
+    line-eight:normal;
+    font-size:1em;
+	padding-left:2px;
+	padding-right:2px;
+    }
+
+.oBienDiv {
+    opacity:0.6;
+    font-size:70%;
+    margin-left:8%;
+    border-top:solid 1px;
+    border-bottom:solid 1px;
+    border-left:solid 1px;
+    border-right:solid 1px;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    padding-left:0.8em;
+    padding-right:0.3em;
+    padding-bottom:0.8em;
+    }
+/*Indici settimana e santi*/
+
+.toc3 {
+    color:red;
+    text-indent:-1em;
+    padding:0px 0px 0px 1em;
+    text-align:center;
+    margin-right: 0em;
+    margin-bottom:0.3em;
+    margin-top:0.3em;
+    }
+.tocSan {
+    color:red;
+    text-indent:-1.5em;
+    padding:0px 0px 0px 1.5em;
+    text-align:left;
+    margin-right: 0em;
+    margin-left:1em;
+    margin-bottom:0.4em;
+    margin-top:0.3em;
+    }
+.DivIndTO {
+	width:90%;
+	box-align:center;
+	padding-bottom:0.8em;
+	padding-top:0.02em;
+	margin: 0 auto;
+	color:#006622;
+	box-shadow: 3px 8px 28px #888888;
+	margin-bottom:1.3em;
+    }
+
+.IndOrd{
+    font-family:Times, Times New Roman, serif;
+    background-color:#F0F0F0;
+    line-height:1.7em;
+    text-align:center;
+    font-size:1em;
+    font-weight:bold;
+    color:#006622;
+    margin-top:0.2em;
+    margin-bottom:0.2em;
+    margin-left:2%;
+    margin-right:2%;
+    border-top: 1px solid red;
+    border-bottom: 1px dashed red;
+    padding:0.2em;
+    }
+
+.IndOrdH2{
+    font-family:Times, Times New Roman, serif;
+    line-height:2.2em;
+    text-align:center;
+    font-size:1.1em;
+    font-weight:bold;
+    color:#006622;
+    margin-top:0em;
+    margin-bottom:0.3em;
+    padding-top:1em;
+    }
+
+
+hr {
+
+	border-top:1px solid red; 
+	margin-top:2em;
+	margin-bottom:2em;
+
+    }
+
+
+
+
+.pT1{
+    font-family:Times, Times New Roman, serif;
+    text-align:center;
+    font-weight:bold;
+    font-size:1.5em;
+    margin-bottom:0.3;
+    margin-top:0.3em;
+    color:red;
+    }
+
+
+
+
+
+
+.pT2{
+    font-family:Times, Times New Roman, serif;
+    text-align:center;
+    font-weight:bold;
+    font-size:1.2em;
+    margin-bottom:0em;
+    color:red;
+    }
+
+.pT3{
+    font-family:Times, Times New Roman, serif;
+    text-align:center;
+    font-size:1em;
+    font-weight:bold;
+    margin-bottom:0.2em;
+    color:red;
+    }
+.pT3ord{
+    font-family:Times, Times New Roman, serif;
+    text-align:center;
+    /*text-transform: lowercase;*/
+    font-size:1em;
+    font-weight:bold;
+    margin-top:0px;
+    margin-bottom:0.2em;
+    color:red;
+    }
+
+.pT4{
+    font-family:Times, Times New Roman, serif;
+    font-size:0.9em;
+    color:red;
+    text-transform: capitalize;
+    text-align:center;
+    font-style:normal;
+	font-weight:bold;
+    margin-top:1em;
+    margin-bottom:0px;
+    }
+
+.pT4ord{
+    font-family:Times, Times New Roman, serif;
+    font-size:0.8em;
+    color:red;
+    text-align:center;
+    font-style:normal;
+	font-weight:bold;
+    margin-top:0em;
+    margin-bottom:0px;
+    }
+
+
+
+
+
+.divPrefac {/* Blocco introduzione Prefazio */
+    font-size:70%;
+    margin-top:0.5em;
+    margin-left:1.5em;
+    margin-bottom:0.3em;
+    opacity:0.7;
+    }
+
+.PrefazTit{
+    font-family:Times, Times New Roman, serif;
+    font-size:small;
+    font-weight:bold;
+    color:red;
+    margin-top:1.5em;
+    margin-bottom:0px;
+    }
+
+.PrefazComm{
+    font-family:Times, Times New Roman, serif;
+    color:red;
+    font-size:0.7em;
+	text-transform:lowercase;
+ 	font-variant:small-caps;
+	letter-spacing:0.05em;
+    margin-top:0px;
+    margin-bottom:12px;
+    }
+
+.Prefac_V {
+    color:black;
+	font-size:1em;
+    margin-top:0em;
+    margin-bottom:0em;
+    margin-left:0em;
+    }
+
+.Prefac_R {
+    color:black;
+    font-style:italic;
+	font-size:0.9em;
+    margin-left:1.6em;
+    margin-top:0em;
+    margin-bottom:0.5em;
+    }
+
+.Prefac::first-letter {
+    font-weight:bold;
+    color:red;
+    margin-right:0.05em;
+    }
+.Prefac_V::first-letter {
+    font-weight:bold;
+    color:red;
+	margin-right:0.3em;
+    }
+
+.Prefac_R::first-letter {
+    font-style:normal;
+    font-weight:bold;
+    color:red;
+	margin-right:0.1em;
+    }
+.Sanctus {
+    color:black;
+    display:block;
+    font-size:0.8em;
+    font-style:italic;
+    margin-left:3em;
+    margin-top:0.5em;
+    margin-bottom:1em;
+    padding:0;
+    }
+
+
+
+
+.Normale{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    text-align:justify; 
+    text-indent:1em;
+    margin-top:0.3px; 
+    margin-bottom:0px; 
+    }
+
+.NormalParaFin{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    text-align:justify; 
+    text-indent:1em;
+    margin-top:0.3em; 
+    margin-bottom:0.4em; 
+    }
+.Commento {
+    font-size:0.8em;
+    line-height:1em;
+    color:red;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    margin-left:0em;
+    }
+
+.CommentoVisib {
+    font-size:0.8em;
+    line-height:1em;
+    color:red;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    margin-left:0em;
+    }
+
+.oBienDiv_Visib {
+    opacity:0.6;
+    font-size:70%;
+    margin-left:8%;
+    border-top:solid 1px;
+    border-bottom:solid 1px;
+    border-left:solid 1px;
+    border-right:solid 1px;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    padding-left:0.8em;
+    padding-right:0.3em;
+    padding-bottom:0.8em;
+    }
+.LecturaCarta{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    font-weight:bold;
+    margin-top:2px;
+    margin-bottom:2px;
+    }
+
+.SalmoEtc{
+    font-family:Times, Times New Roman, serif;
+    font-size:0.8em;
+    font-weight:bold;
+    color:red;
+    margin-top:18px;
+    margin-bottom:0px;
+    }
+
+
+.SalmoEtcSpacio{
+    font-family:Times, Times New Roman, serif;
+    font-size:small;
+    font-weight:bold;
+    color:red;
+    margin-top:18px;
+    margin-bottom:0px;
+    }
+
+
+.SalmoEstrib{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    font-weight:bold;
+    text-indent:-25px;
+    padding-left:25px;
+    margin-top:0px;
+    margin-bottom:7px;
+    }
+
+.SalmoEstrib::first-letter {
+    font-style:normal;
+    font-weight:bold;
+    color:red;
+	margin-right:0.1em;
+    }
+
+.SalmoNum{
+    font-family:Times, Times New Roman, serif;
+    font-size:small;
+    color:red;
+    margin-top:0px;
+    margin-bottom:8px;
+    }
+
+.SalmoTxt{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    text-indent:-13px;
+    padding:0px 0px 0px 20px;
+    margin-top:0px;
+    margin-bottom:6px;
+    }
+
+.SalmoTxt::first-letter {
+    font-weight:bold;
+    color:red;
+	margin-right:0.05em;
+    }
+
+.SalmoTxtPleg{
+    font-family:Times, Times New Roman, serif;
+    font-size:1.1em;
+    text-indent:-0.8em;
+    padding:0px 0px 0px 0.5em;
+    margin-top:0px;
+    margin-bottom:6px;
+    margin-left:5px;
+    }
+
+.SalmoTxtPleg::first-letter {
+    font-weight:bold;
+    color:red;
+	margin-right:0.05em;
+    }
+
+
+
+
+
+.TestoItalic{
+    font-family:Times, Times New Roman, serif;
+    color: red;
+    font-size:small;
+    font-style:italic;
+    margin-top:2px;
+    margin-bottom:12px;
+}
+
+
+.oBienPara{
+    font-family:Times, Times New Roman, serif;
+	color:red;
+	font-weight:bold;
+    font-size:0.8em;
+    font-style:italic;
+    margin-top:1em;
+    margin-bottom:0.5em;
+    }
+
+.Alleluia{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    text-indent:-20px;
+    padding:0px 0px 0px 20px;
+    margin-top:4px;
+    margin-bottom:4px;
+    }
+
+.PalabraDeDios{
+    font-family:Times, Times New Roman, serif;
+    font-weight:bold;
+    font-size:0.9em;
+    font-style:normal;
+    margin-top:2px;
+    margin-bottom:4px;
+}
+
+.Rosso {
+    color:red;
+    font-weight:bold;
+    }
+/*Nero*/
+
+.Nero {
+    color:brown;
+    font-weight:bold;
+    }
+.Bold {
+    color:#000;
+    font-weight:bold;
+    }
+
+.BoldO {
+    color:brown;
+    font-weight:bold;
+    }
+
+.BoldJ {
+    color:red;
+    font-weight:bold;
+    }
+
+
+
+
+
+.Antifona {
+    font-size:1em;
+	color:black;
+    margin-top:0.2em;
+    margin-bottom:0.5em;
+    margin-left:0em;
+    }
+
+
+.Antifona::first-letter {
+	initial-letter: 2;
+    padding-right: 0.1em;
+    font-weight:bold;
+    color:red;
+    }
+
+.AntSmall {
+    color:red;
+    font-size:0.8em;
+    margin-left:3em;
+    margin-bottom:0em;
+    margin-top:1.5em;
+    }
+
+.Citaz1 {
+    color:red;
+    font-size:0.8em;
+    margin-left:3em;
+    margin-bottom:0.3em;
+    margin-top:0em;
+    }
+
+.AntSmallTxt {
+    color:black;
+    display:block;
+    font-size:0.8em;
+    margin-left:3em;
+    margin-top:0em;
+    margin-right:7em;
+    }
+.Oracion {
+    color:red;
+    display:block;
+    margin-left:0em;
+    margin-bottom:0em;
+    padding:0;
+    }
+
+.OracionTxt {
+    font-size:1em;
+    color:black;
+    margin-top:0em;
+    margin-bottom:0.2em;
+    }
+
+
+.SanFecha{
+	/*background-color:red;*/
+	font-size:1.2em;
+	font-weight:bold;
+	text-transform:lowercase;
+ 	font-variant:small-caps;
+    text-align:center;
+	color:red;
+	margin-top:1em;
+	margin-bottom:0.3em;
+	margin-left:4em;
+	margin-right:4em;
+	border-top:solid 1px;
+	border-bottom:dotted 1px;
+	padding-top:0.2em;
+	padding-bottom:0.2em;
+
+}
+
+
+.SanTipo{
+	font-size:0.9em;
+	color:red;
+	text-transform:lowercase;
+ 	font-variant:small-caps;
+	line-height:0.9;
+    text-align:center;
+    margin-top:0em;
+    margin-bottom:0.3em;
+    }
+</style>
+
 </head>
 
 <body id="Inizio">
@@ -14,7 +635,7 @@
 
   <p class="SanTipo">Solemnidad OMI</p>
 
-  <p class="pLinkIni"><a href="SanMayo.html#Inizio" class="button3">↑ - Arriba</a></p>
+
   
  <p class="SalmoEtc"> MONICIÓN DE ENTRADA</p>
 <p class="Normale">SAN EUGENIO DE MAZENOD nació en el 1782 en Aix-en-Provence, en Francia, hijo de una familia de la nobleza de ese país.</p>
@@ -169,7 +790,7 @@
 
   <p class="Sanctus">Santo, Santo, Santo es el Señor,<br/>Dios del Universo.<br/>Llenos están el cielo y la tierra de tu gloria.<br/>Hosanna en el cielo.<br/>Bendito el que viene en nombre del Señor.<br/>Hosanna en el cielo.</p>
 
-  <p class="toc3"><a href="Plegarias.html" class="buttonXL">Plegarias Euc.</a></p>
+
 
   <p class="AntSmall">Antífona de comunión</p>
 
@@ -181,8 +802,6 @@
 
   <p class="Antifona">Al darte gracias, Dios de bondad, <br/>por la participación en este banquete eucarístico, <br/>concédenos caminar en santidad de vida <br/>para ser partícipes, con San Eugenio, <br/>del gozo prometido a los fieles servidores del Evangelio. <br/>Por Jesucristo Nuestro Señor.</p>
 
-  <div class="fixedButton">
-    <a href="#Inizio"><img src="../img/Flecha.png" width="40"/></a>
-  </div>
+
 </body>
 </html>
