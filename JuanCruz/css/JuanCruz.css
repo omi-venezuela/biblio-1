@@ -149,6 +149,15 @@ a:hover {
     margin-bottom: 1px;
     margin-top: 1em;
 }
+.pT5a {
+	font-family: Times, Times New Roman, serif;
+    text-align: left;
+    color: blue;
+    font-size: 1.1em;
+    font-weight: normal;
+    margin-bottom: 0.5em;
+    margin-top: 1.5em;
+
 
 .CartaPor {
 	font-family: Times, Times New Roman, serif;
