@@ -1,5 +1,5 @@
 @font-face {
-font-family: "LibreBaskerville-Regular";
+font-family: "Times New Roman", serif;
 font-style: normal;
 font-weight: normal;
 src : url("../Fonts/LibreBaskerville-Regular.ttf");
@@ -50,10 +50,17 @@ hr {
 	margin-right: 20%;
 	margin-bottom: 3em;
 }
+hr.Carta {
+	border-top: 1px solid red;
+	margin-top: 0em;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 0.5em;
+}
 
 
 h2 {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Times New Roman", serif;
 	font-size: 1.2rem;
     text-align: left;
     color: blue;
@@ -63,7 +70,7 @@ h2 {
 }
 
 .sigue {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Times New Roman", serif;
     text-align: right;
 	font-size: 1.1rem;
     margin-right: 18px;
@@ -72,7 +79,7 @@ h2 {
 }
 
 .Poesia {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Times New Roman", serif;
     text-align: left;
     margin-left: 1.8em;
     margin-bottom: 0.5em;
@@ -81,14 +88,14 @@ h2 {
 }
 
 .Poesia2 {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Times New Roman", serif;
     text-align: left;
     font-style: italic;
     margin-left: 1.8em;
 }
 
 .TitNormal {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Times New Roman", serif;
     text-align: justify;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
@@ -96,7 +103,7 @@ h2 {
 }
 
 .Nota {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Times New Roman", serif;
 	font-size: 1rem;
     text-align: left;
     margin-left: 1.5em;
@@ -104,13 +111,30 @@ h2 {
 	text-indent: -1.5em;
 
 }
+
+.NotaCarta {
+	font-family: "Times New Roman", serif;
+	font-size: 1.1rem;
+	line-height: 130%;
+	font-style: italic;
+    text-align: justify;
+    margin-left: 2.5em;
+    margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	text-indent: -1.8em;
+	color: brown;
+
+
+}
+
+
 .num {
 	font-weight: bold;
     color: brown;
 }
 
 .Normal {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Times New Roman", serif;
     text-align: justify;
     margin-bottom: 0.5em;
     margin-top: 0.2em;
@@ -119,7 +143,7 @@ h2 {
 }
 
 .Normal_a {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Times New Roman", serif;
     text-align: justify;
     margin-bottom: 0.2em;
     margin-top: 0.2em;
@@ -127,8 +151,9 @@ h2 {
 }
 
 .indice{
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Times New Roman", serif;
     text-align: left;
+	line-height: 140%;
     font-style: italic;
     margin-bottom: 1em;
     margin-top: 0.3em;
@@ -136,16 +161,20 @@ h2 {
     font-size: 1rem;
 color: brown;
 }
+
+
 .indice_a{
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Times New Roman", serif;
     text-align: left;
+	text-indent: -4em;
     margin-bottom: 0em;
     margin-top: 0.5em;
+	margin-left: 4em;
 	color: brown;
-
 }
+
 .pTit {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Times New Roman", serif;
     text-align: center;
     color: blue;
     font-size: 1.2rem;
@@ -156,7 +185,7 @@ color: brown;
 }
 
 .pT1 {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Times New Roman", serif;
     text-align: center;
     color: red;
     font-size: 1.2rem;
@@ -166,8 +195,9 @@ color: brown;
 }
 
 .pT2 {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Times New Roman", serif;
     text-align: left;
+	letter-spacing: .1rem;
     color: blue;
 	font-weight: bold;
 	margin-bottom: 0.5em;
@@ -175,7 +205,7 @@ color: brown;
 }
 
 .pT3 {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Times New Roman", serif;
     text-align: center;
     font-style: italic;
     color: blue;
@@ -186,7 +216,7 @@ color: brown;
 }
 
 .pT4 {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Times New Roman", serif;
     text-align: center;
     color: green;
 	font-size: 0.9rem;
@@ -196,7 +226,7 @@ color: brown;
 }
 
 .pT5 {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Times New Roman", serif;
     text-align: left;
     color: brown;
     font-weight: normal;
@@ -205,7 +235,7 @@ color: brown;
 }
 
 .CartaPor {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Times New Roman", serif;
     text-align: left;
     margin-left: 1.8em;
     margin-bottom: 0.5em;
@@ -215,7 +245,7 @@ color: brown;
 }
 
 .Final {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Times New Roman", serif;
     text-align: right;
     font-style: italic;
     margin-bottom: 0em;
@@ -225,7 +255,7 @@ color: brown;
 }
 
 .Subtítulo {
-	font-family: "LibreBaskerville-Regular";
+	font-family: "Times New Roman", serif;
     text-align: justify;
     font-style: italic;
     margin-bottom: 1em;
@@ -289,11 +319,105 @@ color: brown;
   color: white;
 }
 .pT3but {
-  font-family: "LibreBaskerville-Regular";
+  font-family: "Times New Roman", serif;
   letter-spacing: 3px;
   text-align: center;
   font-weight: normal;
   margin-bottom: 0.2em;
   margin-top: 0em;
   color: brown;
+}
+
+.TeresaData {
+	font-style: italic;
+	line-height: 130%;
+	font-size: 1.15rem;
+    text-align: left;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+
+.TeresaDest {
+	font-style: italic;
+	line-height: 130%;
+	font-size: 1.15rem;
+    text-align: left;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+
+.TeresaFirma {
+  font-family: "Times New Roman", serif;
+	line-height: 130%;
+	font-size: 1.15rem;
+	font-style: italic;
+    text-align: left;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+
+.intro {
+	font-family: "Times New Roman", serif;
+	font-style: italic;
+	line-height: 130%;
+    text-align: justify;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: 1em;
+	color: brown;
+	font-size: 1.1rem;
+}
+
+.CartaIntro {
+	font-family: "Times New Roman", serif;
+	font-style: italic;
+	line-height: 130%;
+    text-align: justify;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: 1em;
+	color: brown;
+	font-size: 1.1rem;
+}
+
+.Sigla {
+	font-family: "Times New Roman", serif;
+    text-align: right;
+	font-size: 1.1rem;
+    margin-bottom: 0.2em;
+    margin-top: 1em;
+	color: brown;
+}
+
+.rif_nota {
+    font-size: 0.7em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    padding-left: 4px;
+    padding-right: 2px;
+	color: red;
+	vertical-align: top;
+
+}
+
+.pT1Carta {
+	font-family: "Times New Roman", serif;
+    text-align: center;
+    color: red;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom:1.2em;
+    margin-top: 2em;
+}
+.redCarta {
+	color: red;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.NormalCarta {
+	font-family: "Merriweather-Regular";
+    text-align: justify;
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;
 }
