@@ -257,12 +257,14 @@ color: brown;
 .Subtítulo {
 	font-family: "Times New Roman", serif;
     text-align: justify;
+	line-height: 140%;
     font-style: italic;
     margin-bottom: 1em;
     margin-top: 0em;
     font-size: 1rem;
     color: blue
 }
+
 .red {
     margin-bottom: 2em;
     margin-top: 1em;
